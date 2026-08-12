@@ -1,0 +1,43 @@
+body
+{
+    
+
+ font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+nav{
+    display:flex
+}
+
+.title{
+    color: rgb(224, 170, 170);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.primary-text{
+    color: rgb(111, 158, 244);
+}
+
+nav>ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 70px;
+
+
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(42, 96, 96);
+    text-shadow: 25px;
+    
+}
+.button-primary{
+    background-color: rgb(211, 185, 235);
+    border-radius: 5px;
+
+}
