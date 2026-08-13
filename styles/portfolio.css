@@ -6,26 +6,35 @@ body
   font-optical-sizing: auto;
 }
 nav{
-    display:flex
+    display:flex;
+    font-size:medium;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 .title{
-    color: rgb(224, 170, 170);
+    color: rgb(81, 38, 38);
     font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
+    font-size: 4cap;
     font-weight: 700;
 }
 .primary-text{
-    color: rgb(111, 158, 244);
+    color: rgb(61, 81, 120);
+    font-size:2cap;
+
 }
 
 nav>ul{
     display: flex;
+    align-items: center;
 }
 
 nav li{
     list-style: none;
     margin-right: 70px;
+    font-size:larger;
+    
 
 
 }
@@ -33,11 +42,86 @@ nav li{
 nav a{
     text-decoration: none;
     color: rgb(42, 96, 96);
-    text-shadow: 25px;
+    text-shadow: 20px;
     
 }
+
+
+/*button style*/
+
 .button-primary{
     background-color: rgb(211, 185, 235);
     border-radius: 5px;
+    font-weight: 600;
+    color: rgb(51, 63, 75);
+    padding-top: 2%;
+    padding-bottom:2%;
+    padding-left:2cap;
+    padding-right:2cap;
+    size: 900px;
+    font-size: 17px;
+    font-weight: 750;
 
+   
+
+}
+
+.btn-primary{
+    background-color: rgb(144, 189, 189);
+    font-size:x-large;
+    color: rgb(247, 248, 249);
+    padding-left: 10px;
+    justify-content:space-around;
+    font-weight: 799;
+}
+
+
+
+
+
+/*header related style*/
+
+.header{
+    background-color: rgb(255, 244, 231);
+}
+
+div{
+        align-items: center;
+         font-size:x-large;
+         padding-left: 200px;
+         
+      
+}
+.banner{
+
+    padding: 50px 55px 55px 45px;
+     align-items: center;
+     display: flex;
+     background-color: rgb(220, 234, 246);
+
+}
+
+.banner-greet{
+       align-items: center;
+       
+}
+
+
+.banner-name{
+    align-items: center;
+   
+    display:flex;
+    align-items: center;
+    padding-right: 0%;
+    border: 0%;
+    border-radius:2px;
+    color: rgb(94, 152, 154);
+    
+   
+}
+
+
+
+.banner .image{
+    width: 600px;
 }
