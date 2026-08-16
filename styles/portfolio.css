@@ -135,6 +135,7 @@ nav a{
     padding-left:9%;
     padding-right: 4%;
     margin: 2% 0% 2% 4%;
+    border:0.4px solid;
     
 }
 
@@ -143,10 +144,20 @@ nav a{
    
     font-style:normal;
     font-weight: 500;
-    text-shadow: 300px;
     font-size:xx-large; 
     text-align:center;
-    padding-right:150px;
+    text-shadow: 400px;
+    border: solid;
+    border-radius: 40px;
+    border-width: 2px;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    padding:0.19cm;
+    margin-top: 0.8%;
+    margin-bottom: 0.5%;
+    
+    
 }
 
 .section_description{
@@ -263,27 +274,145 @@ nav a{
 .summary_section
 {
     background-color: rgb(180, 179, 179);
-    padding-left:9%;
+    border: 0.5px solid white;
+    padding-left:4%;
     padding-right: 4%;
-    margin: 2% 11% 2% 4%;
+    margin: 2% 1.5% 2% 5%;
     
 }
 .resume_column_title{
     color: rgb(61, 79, 79);
+
     font-size: x-large;
     font-weight: 500;
     line-height: normal;
     font-style: normal;
 }
 
+
 .summary_container{
+     display: flex;
+     gap: 250px;
+
+}
+.resume_items_1{
+    padding-bottom: 0px;
+}
+.resume_items_2{
+    padding-top: 0px;
+}
+.download_cv{
+   text-align: center;
+   font-size: xx-large;
+}
+
+.download_button{
+
+    align-items: center;
+    text-align: center;
+    background-color: rgb(211, 185, 235);
+    border-radius: 5px;
     
+    color: rgb(51, 63, 75);
+    padding-top: 0.7%;
+    padding-bottom:0.7%;
+    padding-left:2cap;
+    padding-right:2cap;
+    font-size: 20px;
+    font-weight: 450;
+    margin-bottom: 4%;
+    margin-top: 2%;
 
 }
 
 
+/*footer_part*/
 
 
+.footer{
+    display: flex;
+    background-color: rgb(253, 249, 242);
+    max-width: 1600px;
+    margin-left: 175px;
+    border: 0.4px solid;
+    align-items: normal;
+    margin-top: 60px;
+   justify-content: space-around;
+    padding-top: 100px;
+    gap: 100px;
+
+}
+.footer_column{
+
+   width:50%;
+   padding: 3% 3% 3% 3% ;
+
+}
+.social_links{
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.social_links_img{
+    width: 38px;
+    padding: 20px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    display: flex;
+    max-width: 50px;
+    margin-bottom: 23%;
+}
+
+.section_title_footer{
+    color: rgb(60, 62, 60);
+   
+    font-style:normal;
+    font-weight: 500;
+    font-size:xx-large; 
+    text-shadow: 400px;
+    border: solid;
+    border-radius: 40px;
+    border-width: 2px;
+    width: fit-content;
+    display: block;
+    padding:0.19cm;
+    margin-top: 0.8%;
+    margin-bottom: 1%;
+
+}
+.section_description_footer{
+
+    color: rgb(78, 56, 87);
+    text-shadow: 500;
+    font-weight:650;
+    font-size:large;
+    margin-top: 0%;
+    padding-top: 0%;
+    max-width: 700px;
+    width: 80%;
+
+}
 
 
+/*form_part*/
 
+.contact input{
+    display: block;
+    font-display: auto;
+    padding-bottom: 4px;
+    margin-bottom:12px;
+    max-width: 600px;
+    border: 0.5px solid cadetblue;
+}
+
+.contact{
+    margin-top: 35px;
+}
+
+.feedback{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    max-width: 100px;
+}
